@@ -3,6 +3,7 @@ import anthropic
 from dotenv import load_dotenv
 import os
 from PyPDF2 import PdfReader
+import PyPDF2
 import io
 import traceback
 import streamlit.components.v1 as components
@@ -171,4 +172,4 @@ with tab2:
 st.markdown("---")
 st.write("Información de depuración:")
 st.write(f"Versión de Streamlit: {st.__version__}")
-st.write(f"Versión de PyPDF2: {PdfReader.__version__}")
+st.write(f"Versión de PyPDF2: {PyPDF2.__version__}")
