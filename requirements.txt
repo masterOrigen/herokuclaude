@@ -4,3 +4,6 @@ anthropic
 python-dotenv
 pydantic
 PyPDF2
+fastapi
+uvicorn
+starlette
