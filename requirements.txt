@@ -7,3 +7,5 @@ PyPDF2
 fastapi
 uvicorn
 starlette
+itsdangerous
+python-multipart
